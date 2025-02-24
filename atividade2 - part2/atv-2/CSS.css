@@ -1,0 +1,132 @@
+/* Resetando estilos padro~es */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo fontes globais */
+body {
+    font-family:Arial, sans-serif;
+    line-height: 1.6;
+    background-color:#f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color:#333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo img {
+   width:150px;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li a {
+    display: infline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Seçao Home */
+#home {
+    background: #fff;
+    padding: 40 px;
+    text-align: center;
+}
+
+#home img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Seção Sobre */
+#sobre {
+    background: #e4e4e4;
+    padding: 40 px;
+    text-align: center;
+}
+
+#sobre .foto-equipe,
+#sobre .foto-sede {
+    margin-top:20px;
+}
+
+#sobre img {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    margin: 10px;
+}
+
+/*Secão Serviçoes */
+#servicoes {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+serviço {
+    margin-bottom: 20px;
+}
+
+/*Seçao Contato */
+
+#contato {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+}
+
+#contato form {
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: left;
+}
+
+#contato label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#contato input,
+#contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contato button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#contato button:haver {
+    background-color: #555;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
