@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- saved from url=(0069)file:///C:/Users/Aluno/Desktop/atividade%202/atividade2/contatos.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin: 10px 0 5px;
+        }
+        input, textarea {
+            padding: 10px;
+            margin: 5px 0 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .info-contato {
+            margin-top: 20px;
+        }
+        .info-contato p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Formulário de Contato</h2>
+
+        <form action="file:///C:/enviar-contato" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required="">
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required="">
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required="">
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required=""></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <div class="info-contato">
+            <h3>Informações de Contato</h3>
+            <p><strong>Endereço:</strong> Rua Exemplo, 123, Bairro Exemplo, Cidade - Estado, CEP: 00000-000</p>
+            <p><strong>Telefone:</strong> (11) 1234-5678</p>
+            <p><strong>E-mail:</strong> contato@empresa.com.br</p>
+        </div>
+    </div>
+
+
+</body></html>
