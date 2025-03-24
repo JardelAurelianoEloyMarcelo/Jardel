@@ -1,0 +1,54 @@
+.container{
+    border: solid 1px;
+    padding: 1px;
+    display: flex;
+    height: 9vh;
+    width: 5vw;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    order: número
+    /* o valor padrão é 0*/
+}
+.item {
+    border: solid 1px;
+    padding: 1px;
+    display: flex;
+    height: 9vh;
+    width: 5vw;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.flex-container {
+    padding: 1px;
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.item1 {
+    border: solid 1px;
+    padding: 1px;
+    display: flex;
+    height: 9vh;
+    width: 11vw;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    order: número
+       /* o valor padrão é 0*/
+}
+.item2 {
+    border: solid 1px;
+    padding: 1px;
+    display: flex;
+    height: 9vh;
+    width:  22vw;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    order: número
+    /* o valor padrão é 0*/
+}
