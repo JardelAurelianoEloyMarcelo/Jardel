@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Formulário de Contato</h2>
+        <form id="contato-Form">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+            <span class="erro" id="erro-Nome"></span>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+            <span class="erro" id="erro-Email"></span>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem"></textarea>
+            <span class="erro" id="erro-Mensagem"></span>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
